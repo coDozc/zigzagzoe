@@ -72,11 +72,11 @@ public class movement : MonoBehaviour
             Debug.Log("değdi");
         }
     }
-    private void OnCollisionExit(Collision collision) 
+    /**private void OnCollisionExit(Collision collision) 
     {
         Destroy(collision.gameObject, 2f);
     }
-
+**/
     void createEffect() 
     {
         var vfx =  Instantiate(effect, transform);

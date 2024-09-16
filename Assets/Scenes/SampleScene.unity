@@ -710,6 +710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lastWall: {fileID: 1125058246}
   wallPrefab: {fileID: 7168478564415107540, guid: 50c21131130e32647b288ea22d073ac3, type: 3}
+  poolSize: 20
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1569,6 +1570,18 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6517021150555148783, guid: c01aaf0de5b8d3f438be0c526cc1cd29, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517021150555148783, guid: c01aaf0de5b8d3f438be0c526cc1cd29, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517021150555148783, guid: c01aaf0de5b8d3f438be0c526cc1cd29, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517021150555148783, guid: c01aaf0de5b8d3f438be0c526cc1cd29, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1638,20 +1651,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6517021150555148783, guid: c01aaf0de5b8d3f438be0c526cc1cd29, type: 3}
   m_PrefabInstance: {fileID: 602924167299484471}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &602924167299484487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 602924167299484472}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c522a1c9606e422489851eec728d1dbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lastWall: {fileID: 1125058246}
-  wallPrefab: {fileID: 7168478564415107540, guid: 50c21131130e32647b288ea22d073ac3, type: 3}
 --- !u!1001 &7168478563959948527
 PrefabInstance:
   m_ObjectHideFlags: 0
